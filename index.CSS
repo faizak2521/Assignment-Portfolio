@@ -1,6 +1,6 @@
 .main-title {
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .subtitle-links {
@@ -10,13 +10,13 @@
 
 
 .me-image {
-    width: 250px;
-    height: 250px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     object-fit: cover;
     float: right;
     margin: 20px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 50px;
 }
 
