@@ -10,11 +10,13 @@
 
 
 .me-image {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     float: right;
     margin: 20px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 
