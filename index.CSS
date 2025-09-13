@@ -19,8 +19,8 @@
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    float: right;
     margin: 20px;
+    margin-left: 800px;
     margin-right: 130px;
     margin-top: 30px;
 }
