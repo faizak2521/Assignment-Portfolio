@@ -1,13 +1,18 @@
 .main-title {
-    margin-top: 30px;
-    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 90px;
+    margin-left: 50px;
 }
 
 .subtitle-links {
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
+.assignment-list {
+    margin-top: 105px;
+    margin-left: 50px;
+}
 
 .me-image {
     width: 450px;
@@ -16,7 +21,7 @@
     object-fit: cover;
     float: right;
     margin: 20px;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin-right: 130px;
+    margin-top: 30px;
 }
 
