@@ -1,17 +1,17 @@
 .main-title {
     font-size: 40px;
-    margin-top: 90px;
-    margin-left: 50px;
+    margin-top: 150px;
+    margin-left: 70px;
 }
 
 .subtitle-links {
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .assignment-list {
     margin-top: 105px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 .space {
     display: flex;
