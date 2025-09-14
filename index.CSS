@@ -13,15 +13,22 @@
     margin-top: 105px;
     margin-left: 50px;
 }
+.hero {
+    display: flex;
+    align-items: flex-start;   /* top-align text and image */
+    gap: 24px;                 /* space between text and image */
+    padding: 90px 50px 0 50px; /* replace your margins with padding */
+}
 
+.space-text {
+    flex: 1;
+}
 .me-image {
     width: 450px;
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 20px;
-    margin-left: 800px;
-    margin-right: 130px;
-    margin-top: 30px;
+    margin: 20px 0 0 0;
+
 }
 
