@@ -39,7 +39,7 @@
     display: flex;
     align-items: flex-start;   /* top-align text and image */
     gap: 24px;                 /* space between text and image */
-    padding: 180px 0px 90px 80px; /* replace your margins with padding */
+    padding: 90px 50px 0 50px; /* replace your margins with padding */
 }
 
 .space-text {
@@ -50,6 +50,6 @@
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 180px 0 90px 80px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
+    margin: 180px 0 0 -100px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
 }
 
