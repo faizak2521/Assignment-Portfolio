@@ -53,3 +53,10 @@
     margin: 180px 0 0 -100px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
 }
 
+.background-img {
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 180px 0 0 -100px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
+}
