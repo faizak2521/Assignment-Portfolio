@@ -50,6 +50,6 @@
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 180px 0 0 80px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
+    margin: 180px 0 90px 80px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
 }
 
