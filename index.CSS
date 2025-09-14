@@ -38,7 +38,7 @@
     font-size: 20px;
     margin-left: 120px;
 }
-/* .space {
+.space {
     display: flex;
     align-items: flex-start;   
     gap: 24px;                 
@@ -47,12 +47,12 @@
 
 .space-text {
     flex: 1;
-} */
+}
 .me-image {
     width: 450px;
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 180px 0 0 -100px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
+    margin: 180px 0 0 -180px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
 }
 
