@@ -1,7 +1,7 @@
 .main-title {
     font-size: 40px;
     margin-top: 190px;
-    margin-left: 70px;
+    margin-left: 120px;
     margin-bottom: 10px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-weight: bold;
@@ -22,7 +22,7 @@
 }
   
 .subtitle {
-    margin-left: 70px;
+    margin-left: 120px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
 }
 
@@ -33,7 +33,7 @@
 
 .assignment-link {
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 .space {
     display: flex;
