@@ -38,16 +38,16 @@
     font-size: 20px;
     margin-left: 120px;
 }
-.space {
+/* .space {
     display: flex;
-    align-items: flex-start;   /* top-align text and image */
-    gap: 24px;                 /* space between text and image */
-    padding: 90px 50px 0 50px; /* replace your margins with padding */
+    align-items: flex-start;   
+    gap: 24px;                 
+    padding: 90px 50px 0 50px; 
 }
 
 .space-text {
     flex: 1;
-}
+} */
 .me-image {
     width: 450px;
     height: 450px;
