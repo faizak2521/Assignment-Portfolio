@@ -39,7 +39,7 @@
     display: flex;
     align-items: flex-start;   /* top-align text and image */
     gap: 24px;                 /* space between text and image */
-    padding: 90px 50px 0 50px; /* replace your margins with padding */
+    padding: 180px 0px 90px 80px; /* replace your margins with padding */
 }
 
 .space-text {
