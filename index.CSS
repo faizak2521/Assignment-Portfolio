@@ -15,21 +15,21 @@
 }
 
 .main-title {
-    display: inline-block;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
-    border-right: 3px solid;
-    white-space: nowrap;
-    overflow: hidden;
-  
-    /* don’t shrink the parent container */
-    animation: typing 3s steps(25) forwards, blink 0.6s step-end 4 forwards;
+  display: inline-block;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+  border-right: 3px solid;
+  white-space: nowrap;
+  overflow: hidden;
+
+  /* don’t shrink the parent container */
+  animation: typing 3s steps(25) forwards, blink 0.6s step-end 4 forwards;
 }
-  
+
 @keyframes typing {
-    from { clip-path: inset(0 100% 0 0); }  /* hide text */
-    to   { clip-path: inset(0 0 0 0); }     /* reveal text */
+  from { clip-path: inset(0 100% 0 0); }  /* hide text */
+  to   { clip-path: inset(0 0 0 0); }     /* reveal text */
 }
   
 .subtitle {
