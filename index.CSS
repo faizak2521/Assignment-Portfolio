@@ -72,6 +72,6 @@
     height: 450px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 120px 0 0 -180px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
+    margin: 120px 0 0 -100px; /*sets margin for all four(top(down), right(left), bottom(up), left(right)) sides*/
 }
 
