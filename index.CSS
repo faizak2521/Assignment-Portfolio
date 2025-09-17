@@ -52,7 +52,8 @@ body {
 /* Assignments: simple scroll box */
 .assignments-list {
     margin-top: 16px;
-    max-height: 100px;
+    max-height: 260px;
+    max-width: 80px;
     overflow: auto;
     padding: 12px;
     border: 1px solid #000000;
@@ -67,4 +68,4 @@ body {
     padding: 6px 4px;
 }
 
-.assignments-list a + a { border-top: 1px solid #c5c6c7; }
+.assignments-list a + a { border-top: 1px solid #16385a; }
