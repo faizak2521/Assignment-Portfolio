@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(92, 100, 91);
+    background-color: rgb(108, 118, 106);
     margin: 0;
 }
 
@@ -58,7 +58,7 @@ body {
     padding: 12px;
     border: 1px solid #000000;
     border-radius: bold 8px;
-    background-color: rgb(99, 119, 99);
+    background-color: rgb(95, 106, 95);
 }
 
 .assignments-list a {
@@ -66,7 +66,7 @@ body {
     font-size: clamp(14px, 1.8vw, 20px);
     text-decoration: none;
     padding: 6px 4px;
-    color: dimgray;
+    color: rgb(0, 0, 0);
     
 }
 
