@@ -58,7 +58,7 @@ body {
     padding: 12px;
     border: 1px solid #000000;
     border-radius: bold 8px;
-    background-color: rgb(95, 106, 95);
+    background-color: rgb(115, 132, 115);
 }
 
 .assignments-list a {
@@ -70,4 +70,4 @@ body {
     
 }
 
-.assignments-list a + a { border-top: 1px solid #ebebeb; }
+.assignments-list a + a { border-top: 1px solid #cccccc; }
