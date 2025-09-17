@@ -1,95 +1,67 @@
-:root {
-    --type-end: 24ch; /* width of "Welcome To My Portfolio" -> stop exactly at 'Portfolio' */
-}
 body {
-    background-color: #182cdc;
+    background-color: #3a4b4e;
     margin: 0;
 }
 
-
-/* Simple page wrapper: wrap your HTML in <div class="container"> ... */
+/* Layout: text + image side-by-side */
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 16px;
     display: flex;
-    flex-direction: column;
     gap: 24px;
-    min-height: 100vh;
 }
 
+/* Typing title */
 .main-title {
-    font-size: clamp(36px, 6vw, 60px);
-    margin: 0;                        /* keep titles aligned with subtitle */
-    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
-    font-weight: bold;
+    font: bold clamp(36px, 6vw, 60px) "New Century Schoolbook","TeX Gyre Schola",serif;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid currentColor;  /* caret */
+    border-right: 3px solid currentColor;
     width: 0;
-    display: inline-block;            /* contain the typing width */
-    animation: typing 3s steps(24) forwards, blink 0.6s step-end 4 forwards;
+    display: inline-block;
+    animation: typing 3s steps(24) forwards, blink .6s step-end 4 forwards;
+    margin: 25px 0 0;
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: var(--type-end) } /* stop exactly at end of text */
-}
-@keyframes blink {
-    0%, 49% { border-color: currentColor; }
-    50%, 100% { border-color: transparent; }
-}
-  
+@keyframes typing { from { width: 0 } to { width: 24ch } }
+@keyframes blink  { 0%,49% { border-color: currentColor } 50%,100% { border-color: transparent } }
+
+/* Subtitle */
 .subtitle {
-    margin: 8px 0 0 0;               /* aligned under main-title */
+    margin: 8px 0 0;
     font-size: clamp(18px, 3.2vw, 30px);
-    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+    font-family: "New Century Schoolbook","TeX Gyre Schola",serif;
 }
 
-.space {
-    display: flex;
-    flex-wrap: nowrap;        /* don't wrap unless forced by very small widths */
-    align-items: center;      /* vertically center image with text */
-    gap: 24px;
-    padding: 24px 0;
-    min-width: 0;             /* allow children to shrink */
-}
+/* Text column can shrink; keeps one-line layout longer */
+.space-text { flex: 1 1 auto; min-width: 0; }
 
-.space-text {
-    flex: 1 1 auto;           /* allow text column to grow/shrink */
-    min-width: 0;             /* enables text to shrink instead of forcing wrap */
-}
-
+/* Image: responsive, circular, stable */
 .me-image {
-    width: clamp(180px, 28vw, 450px); /* responsive width */
-    aspect-ratio: 1 / 1;              /* keep square */
-    height: auto;
+    width: clamp(180px, 28vw, 450px);
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
-    margin: 0;                        /* remove large/negative margins that cause shifts */
-    flex: 0 0 auto;                   /* don't let flex shrink it below clamp */
+    margin-top: 25px;
+    margin: 0;
 }
 
+/* Assignments: simple scroll box */
 .assignments-list {
-    margin: 16px 0 0 0;
-    max-height: 200px;               /* scroll area height */
+    margin-top: 16px;
+    max-height: 200px;
     overflow: auto;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background: rgba(255,255,255,0.08);
-    backdrop-filter: blur(2px);
 }
 
 .assignments-list a {
     display: block;
-    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     font-size: clamp(14px, 1.8vw, 20px);
     text-decoration: none;
-    color: inherit;
     padding: 6px 4px;
 }
 
-.assignments-list a + a {
-    border-top: 1px solid rgba(255,255,255,0.15);
-}
+.assignments-list a + a { border-top: 1px solid rgba(255,255,255,0.15); }
