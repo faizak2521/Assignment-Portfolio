@@ -53,12 +53,12 @@ body {
 .assignments-list {
     margin-top: 16px;
     max-height: 260px;
-    max-width: 400px;
+    max-width: 500px;
     overflow: auto;
     padding: 12px;
     border: 1px solid #000000;
-    border-radius: 8px;
-    background-color: rgb(196, 184, 168);
+    border-radius: bold 8px;
+    background-color: rgb(205, 192, 175);
 }
 
 .assignments-list a {
@@ -66,15 +66,8 @@ body {
     font-size: clamp(14px, 1.8vw, 20px);
     text-decoration: none;
     padding: 6px 4px;
-    
-}
-
-.assignments-list a:link {
-    color: #000000;
-}
-
-.assignments-list a:visited {
     color: dimgray;
+    
 }
 
 .assignments-list a + a { border-top: 1px solid #ebebeb; }
