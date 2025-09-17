@@ -1,5 +1,5 @@
 body {
-    background-color: #3a4b4e;
+    background-color: #788183;
     margin: 0;
 }
 
@@ -21,7 +21,8 @@ body {
     width: 0;
     display: inline-block;
     animation: typing 3s steps(24) forwards, blink .6s step-end 4 forwards;
-    margin: 25px 0 0;
+    margin-top: 130px;
+
 }
 
 @keyframes typing { from { width: 0 } to { width: 24ch } }
@@ -43,16 +44,16 @@ body {
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 /* Assignments: simple scroll box */
 .assignments-list {
     margin-top: 16px;
-    max-height: 200px;
+    max-height: 150px;
     overflow: auto;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 8px;
 }
 
@@ -63,4 +64,4 @@ body {
     padding: 6px 4px;
 }
 
-.assignments-list a + a { border-top: 1px solid rgba(255,255,255,0.15); }
+.assignments-list a + a { border-top: 1px solid #949494; }
