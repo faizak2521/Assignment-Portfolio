@@ -53,7 +53,7 @@ body {
 .assignments-list {
     margin-top: 16px;
     max-height: 260px;
-    max-width: 80px;
+    max-width: 200px;
     overflow: auto;
     padding: 12px;
     border: 1px solid #000000;
