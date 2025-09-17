@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(154, 166, 152);
+    background-color: rgb(168, 181, 166);
     margin: 0;
 }
 
@@ -56,8 +56,8 @@ body {
     max-width: 500px;
     overflow: auto;
     padding: 12px;
-    border: 35px solid #000000;
-    border-radius: bold 35px;
+    border: 8px solid #000000;
+    border-radius: bold 35%;
     background-color: rgb(128, 141, 128);
 }
 
