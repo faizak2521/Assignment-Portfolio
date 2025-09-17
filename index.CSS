@@ -57,8 +57,8 @@ body {
     overflow: auto;
     padding: 12px;
     border: 1px solid #000000;
-    border-radius: bold 8px;
-    background-color: rgb(115, 132, 115);
+    border-radius: bold 20px;
+    background-color: rgb(98, 111, 98);
 }
 
 .assignments-list a {
