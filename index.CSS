@@ -22,6 +22,7 @@ body {
     display: inline-block;
     animation: typing 3s steps(24) forwards, blink .6s step-end 4 forwards;
     margin-top: 130px;
+    margin-bottom: 10px;
 
 }
 
@@ -30,7 +31,7 @@ body {
 
 /* Subtitle */
 .subtitle {
-    margin: 8px 0 0;
+    margin: 5px 0 0;
     font-size: clamp(18px, 3.2vw, 30px);
     font-family: "New Century Schoolbook","TeX Gyre Schola",serif;
 }
@@ -45,6 +46,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-top: 130px;
+    margin-left: 10px;
 }
 
 /* Assignments: simple scroll box */
@@ -55,6 +57,7 @@ body {
     padding: 12px;
     border: 1px solid #000000;
     border-radius: 8px;
+    
 }
 
 .assignments-list a {
