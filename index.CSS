@@ -20,7 +20,7 @@ body {
     border-right: 3px solid currentColor;
     width: 0;
     display: inline-block;
-    animation: typing 2s steps(25) forwards, blink .6s step-end 4 forwards;
+    animation: typing 3s steps(25) forwards, blink .6s step-end 4 forwards;
     margin-top: 130px;
     margin-bottom: 10px;
 
