@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(108, 118, 106);
+    background-color: rgb(154, 166, 152);
     margin: 0;
 }
 
@@ -57,8 +57,8 @@ body {
     overflow: auto;
     padding: 12px;
     border: 1px solid #000000;
-    border-radius: bold 20px;
-    background-color: rgb(98, 111, 98);
+    border-radius: bold 35px;
+    background-color: rgb(128, 141, 128);
 }
 
 .assignments-list a {
