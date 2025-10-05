@@ -1,6 +1,16 @@
 body {
-    background: rgb(168, 181, 166);
+    /* background: rgb(168, 181, 166); */
+    background: url('back.jpg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(112, 112, 112, 0.48); /* adjust darkness */
+    z-index: -1;
 }
 
 /* Layout: text + image side-by-side */
@@ -57,7 +67,9 @@ body {
     overflow: auto;
     padding: 12px;
     border: 2px solid #232323;
-    background-color: rgb(139, 153, 139);
+    background-color: rgba(175, 175, 175, 0.404); /* translucent */
+    backdrop-filter: blur(8px); /* blur background */
+    -webkit-backdrop-filter: blur(8px); /* Safari support */
 }
 
 .assignments-list a,
@@ -75,7 +87,7 @@ body {
 }
 
 .assignments-list a:hover {
-    color: rgb(59, 59, 194);
+    color: rgb(140, 50, 101);
     text-decoration: underline;
 }
 
