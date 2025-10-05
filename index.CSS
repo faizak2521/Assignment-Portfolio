@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(168, 181, 166);
+    background: rgb(168, 181, 166);
     margin: 0;
 }
 
@@ -60,13 +60,29 @@ body {
     background-color: rgb(139, 153, 139);
 }
 
-.assignments-list a {
+.assignments-list a,
+.assignments-list span {
     display: block;
     font-size: clamp(14px, 1.8vw, 20px);
-    text-decoration: none;
     padding: 6px 4px;
     color: rgb(0, 0, 0);
-    
 }
 
-.assignments-list a + a { border-top: 1px solid #cccccc; }
+/* Hover on links */
+.assignments-list a {
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.assignments-list a:hover {
+    color: rgb(59, 59, 194);
+    text-decoration: underline;
+}
+
+/* Divider lines between all items */
+.assignments-list a + a,
+.assignments-list span + a,
+.assignments-list a + span,
+.assignments-list span + span {
+    border-top: 1px solid #cccccc;
+}
